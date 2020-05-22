@@ -1,0 +1,7 @@
+.main {
+  width: calc(100% * .76875);
+  display: flex;
+   flex-direction: column;
+   align-items: center;  
+  border: 1px solid darkviolet;
+}

@@ -1,0 +1,7 @@
+@import url(./__copyright/footer__copyrighr.css);
+@import url(./__link/);
+.footer{
+  width: 1184px;
+  height: 52px;
+  border: 1px solid red;    
+}
