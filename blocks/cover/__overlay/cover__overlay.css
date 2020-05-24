@@ -1,0 +1,13 @@
+.cover__overlay {
+  text-decoration: none;  
+  max-width: 100%;
+}
+
+.cover__overlay:hover {
+    text-decoration: none;  
+    max-width: 100%;
+    background-color: #2a2c2f;  
+    opacity: 0.3;
+    transition: .8s;
+    z-index: 2;
+  }

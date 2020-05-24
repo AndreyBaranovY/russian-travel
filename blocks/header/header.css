@@ -1,9 +1,29 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-link/header__lang-link.css);
 .header{
+  max-width: 100%;
   display: flex;
     justify-content: space-between;
     align-items: flex-end;
-  width: calc(100% * .925);
+  padding: 0 48px;
   border: 1px solid red;  
 }
+
+/*
+@media screen and (max-width:1024px) {
+  .header {
+  }
+} */
+
+@media screen and (max-width:768px) {
+  .header {
+    padding: 0 24px;
+  }
+} 
+
+@media screen and (max-width:320px) {
+  .header {
+    padding: 0 16px;
+    align-items: center;
+  }
+} 

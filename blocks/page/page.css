@@ -1,7 +1,15 @@
 .page {
   font-family: 'Inter', 'Roboto', sans-serif;
-  background-color: #E5E5E5; 
-  display: flex;
-   flex-direction: column;
-   align-items: center;  
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  /* background-color:  #2A2C2F; */
+  background-color:  #e5e5e5;
+  color: white;  
+ 
+  border: 3px solid rgb(68, 228, 15);
 }
