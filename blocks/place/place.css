@@ -4,14 +4,15 @@
 @import url(./__paragragh/place__pagraph.css);
 @import url(./__website-link/place__website-link.css);
 @import url(./__website-url-heading/place__website-url-heading.css);
+
 .place {
+  box-sizing: border-box;
   max-width: 100%;
-  padding-bottom: 80px;
+  padding-bottom: 90px;
   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+   grid-template-columns: repeat(2,minmax(280px, 1fr));
    grid-row-gap: 48px; 
    grid-column-gap: 40px;
-   border: 1px solid green;
 }
 
 .place:last-of-type {
@@ -20,14 +21,14 @@
 
 @media screen and (max-width:1024px) {
   .place {
-    grid-template-columns: repeat(auto-fit,minmax(440px, 1fr));
+    grid-template-columns: repeat(2,minmax(340px, 1fr), 1fr);
     grid-column-gap: 32px;
   }
 } 
 
 @media screen and (max-width:768px) {
   .place{
-    grid-template-columns: repeat(auto-fit,minmax(340px, 1fr));
+    grid-template-columns: repeat(2,minmax(100px, 1fr));
     grid-column-gap: 28px;
     padding-bottom: 64px;
 
@@ -36,7 +37,7 @@
 
 @media screen and (max-width:320px) {
   .place {
-    grid-template-columns: repeat(auto-fit,minmax(340px, 1fr));
+    grid-template-columns: 1fr;
     grid-gap: 32px;
     padding-bottom: 48px;
   }

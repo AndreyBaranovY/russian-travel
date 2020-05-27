@@ -1,4 +1,6 @@
 .place__image {
+  box-sizing: border-box;
+  object-fit: contain;
   max-width: 100%;
   width: 100%;
 }

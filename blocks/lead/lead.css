@@ -4,18 +4,18 @@
 @import url(./__caption/lead__caption.css);
 .lead{
   max-width: 100%;
-  
+  box-sizing: border-box;
   display: flex;
     flex-direction: column;
     justify-content: space-between;
   padding: 0 148px;
-
-  border: 1px dashed red;  
+  padding-bottom: 92px;
 }
 
 @media screen and (max-width:1024px) {
   .lead {
     padding: 0 48px;
+    padding-bottom: 92px;
   }
 } 
 
@@ -24,5 +24,15 @@
     grid-template-columns: repeat(auto-fit,minmax(340px, 1fr));
     grid-column-gap: 28px;
      padding: 0;
+     padding-bottom: 88px;
+  }
+} 
+
+@media screen and (max-width:320px) {
+  .lead{
+    grid-template-columns: repeat(auto-fit,minmax(340px, 1fr));
+    grid-column-gap: 28px;
+     padding: 0;
+     padding-bottom: 64px;
   }
 } 

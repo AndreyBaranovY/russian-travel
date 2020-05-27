@@ -2,10 +2,8 @@
   max-width: 100%;
   display: flex;
   flex-direction: column;
-   grid-gap: 92px;
-   justify-content: space-between; 
-  border: 1px solid darkviolet;
-  
+  margin: 0 auto;
+  padding: 0;
 } 
 
 @media screen and (max-width: 768px) {
