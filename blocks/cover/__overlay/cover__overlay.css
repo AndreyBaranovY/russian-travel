@@ -1,6 +1,8 @@
 .cover__overlay { 
+  position:relative;
   max-width: 100%;
-  height: calc((100vw - 100px) * 0.62);
+  min-height: 100%; /* исправленно */
+  padding: 19.3% 0; /* исправленно */
   display: flex;
    flex-direction: column;
    justify-content: center;
@@ -14,10 +16,3 @@
   transition: .7s; 
 }
  
-
-@media screen and (max-width:1024px) {
-    .cover__overlay {
-      height: calc(100vw * 0.62);  
-    }
-  } 
-  

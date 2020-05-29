@@ -1,11 +1,10 @@
 # Проектная работа 3: Путешествие по России студента Яндекс-Практикум Баранова Андрея
 
-<<<<<<< HEAD
 ### Обзор
 * [Здесь указана ссылка на него:] (https://andreybaranovy.github.io/russian-travel/)
 =======
 **Интро по реализации проекта**
->>>>>>> c04b07362dd44520435a04c587cf5bcc3b649844
+
 
 Это был очень тяжёлый для меня проект по макету из Figma (https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
 

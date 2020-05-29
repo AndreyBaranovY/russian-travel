@@ -1,4 +1,5 @@
 .intro__list {
+  margin: 0;
   list-style-type: none;
   font-weight: normal;
   font-size: 12px;

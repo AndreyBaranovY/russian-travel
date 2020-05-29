@@ -1,14 +1,13 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./__background/cover__background.css);
 @import url(./__overlay/cover__overlay.css);
-@import url(./__text/cover__text.css);
-@import url(./__picture/cover__picture.css);
 
 .cover {
   margin: 0;
-  max-width: 100%;
-  padding: 0 48px;
+  max-width: 1184px;
+  background-image: url("../../images/cover-trains-orig.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
 }
 
   

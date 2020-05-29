@@ -1,6 +1,6 @@
 .lead__caption {
   margin: 0;
-  font-size: 14px;
+  font-size: 10px;  /* исправлено */
   line-height: 1.4;
   text-transform: uppercase; 
   align-self:baseline;
