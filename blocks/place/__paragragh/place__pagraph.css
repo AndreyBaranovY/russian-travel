@@ -1,11 +1,9 @@
 .place__paragraph {
-  max-width: 100%;
-  width:100%;
-  box-sizing: border-box;
   font-size: 18px;
   line-height: 1.67;
   margin: 0 0 24px;
-  text-align: justify;
+  text-align: left;
+  padding: 0 12px;
 }
 
 .place__paragraph:last-child{
