@@ -1,4 +1,4 @@
-.cover__overlay { 
+.cover__overlay {
   position:absolute;
   top: 0;
   left: 0;
@@ -10,8 +10,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-  text-decoration: none; 
-  
+  text-decoration: none;
 }
 
 .cover__overlay::before {
@@ -23,10 +22,10 @@
   right: 0;
   bottom: 0;
   background-color: rgba(42,44,47,0.3);
-  transition: .7s;  
+  transition: .7s;
 }
 
 .cover__overlay:hover::before {
   opacity: 0.8;
 }
- 
+
