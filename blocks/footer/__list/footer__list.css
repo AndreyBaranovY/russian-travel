@@ -4,12 +4,15 @@
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
-   
+
 }
 
 @media screen and (max-width:720px) {
     .footer__list {
-      flex-direction: column; 
+      flex-direction: column;
       margin-bottom: 48px;
     }
-  } 
+    .footer__list:last-child {
+      margin-bottom: 0;
+    }
+  }

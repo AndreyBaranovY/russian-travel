@@ -1,5 +1,5 @@
 .page {
-  margin: auto;
+  margin: 0 auto;
   font-family: 'Inter','Arial', sans-serif;  /* исправлено */
   font-weight: normal;
   -moz-osx-font-smoothing: grayscale;
@@ -10,5 +10,5 @@
   text-rendering: optimizeLegibility;
   font-size: 18px;
   background-color:  #2A2C2F;
-  color: white;  
+  color: white;
 }
