@@ -1,5 +1,7 @@
-.lead__image {
+.lead__image {   /* исправленно */
   max-width: 100%;
-  width: 100%;
+  width: max-content;
+  object-fit: cover;
+  object-position: center;
 }
 

@@ -7,4 +7,9 @@
     padding-bottom: 40px; 
  }
   
- 
+ @media screen and (max-width: 740px) {
+    .intro__title {
+      font-size: 32px;
+      line-height: 1.094;
+    }
+  }

@@ -1,7 +1,7 @@
 .lead__title { 
    box-sizing: border-box;
    margin: 0 auto;
-   max-width: 100%;
+   max-width: 720px;  /* исправленно */
    font-size: 96px; 
    line-height: 1.04;
    font-weight: 900;
@@ -17,17 +17,17 @@
   }
 } 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:700px) {
     .lead__title  {
-      padding: 0 0 32px;
-      font-size: 40px;
+      max-width: 288px;  /* исправленно */
       line-height: 1.1;
+      font-size: 40px; 
+      padding: 0 0 32px;   /* исправленно */
     }
   } 
   
-  @media screen and (max-width:320px) {
+  @media screen and (max-width:600px) {  /* исправленно */
     .lead__title  {
-      min-width: 288px;
       padding: 0 16px 16px;
      
   } 

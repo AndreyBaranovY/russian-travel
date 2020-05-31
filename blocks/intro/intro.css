@@ -3,31 +3,27 @@
 @import url(./__list/intro__list.css);
 @import url(./__list-content/intro__list-content.css);
 
-.intro{
-  box-sizing: border-box;
-  display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-  max-width: 100%;
-  padding: 0 442px 0 148px;
+.intro{                  /* исправлено */
+  max-width: 690px;         
+  padding-left: 148px;
   padding-bottom: 92px;
 }
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1200px) {
   .intro {
-    padding: 0 286px 92px 48px;
+    padding-left: 48px;
   }
 } 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
   .intro {
     padding: 0 24px;
     padding-bottom: 88px;
   }
 } 
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:540px) {
   .intro {
     padding: 16px;
     padding-bottom: 64px;

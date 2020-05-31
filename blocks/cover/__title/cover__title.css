@@ -1,26 +1,20 @@
-.cover__title {
+.cover__title {             /* исправленно */
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0 0 32px;
   max-width: 560px;
   text-align: center;
   font-size: 72px;
-  line-height: 1.06;
+  line-height: 1.056;
   font-weight: 900;
   color: #fffdfd;
+  z-index: 2;
 }
-
-  
-  @media screen and (max-width:768px) {
-      .cover__title {
-        max-width: calc(100% * 5px);
-        font-size: 2.8rem;
-      }
-    } 
     
-    @media screen and (max-width:320px) {
+    @media screen and (max-width:600px) { /* исправленно */
       .cover__title {
-        max-width: 220px;
+        width: 290px;
         font-size: 32px;
         line-height: 1.09;
+        margin-bottom: 16px;
     } 
   }

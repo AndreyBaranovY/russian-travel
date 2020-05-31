@@ -1,18 +1,32 @@
 .cover__overlay { 
-  position:relative;
-  max-width: 100%;
-  min-height: 100%; /* исправленно */
-  padding: 19.3% 0; /* исправленно */
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
   display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
   text-decoration: none; 
-  background-color: rgba(42,44,47,0.3);
+  
 }
 
-.cover__overlay:hover {
-  background-color: rgba(42, 44, 47, 0.7);
-  transition: .7s; 
+.cover__overlay::before {
+  content: '';
+  background-color: #2A2C2F;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(42,44,47,0.3);
+  transition: .7s;  
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.8;
 }
  

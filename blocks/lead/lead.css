@@ -1,5 +1,6 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtile.css);
+@import url(./__image-container/lead__image-container.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
 .lead{
@@ -12,27 +13,17 @@
   padding-bottom: 92px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1100px) {
   .lead {
     padding: 0 48px;
     padding-bottom: 92px;
   }
 } 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
   .lead{
-    grid-template-columns: repeat(auto-fit,minmax(340px, 1fr));
-    grid-column-gap: 28px;
-     padding: 0;
-     padding-bottom: 88px;
-  }
-} 
-
-@media screen and (max-width:320px) {
-  .lead{
-    grid-template-columns: repeat(auto-fit,minmax(340px, 1fr));
-    grid-column-gap: 28px;
      padding: 0;
      padding-bottom: 64px;
   }
 } 
+
